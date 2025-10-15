@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minecraft Mods</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Side Panel Trigger Button -->
+  <button id="side-panel-trigger" aria-label="Open Navigation">
+    <span class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+  
+  <!-- Side Panel Drawer -->
+  <aside id="side-panel" aria-hidden="true">
+    <button id="side-panel-close" aria-label="Close Navigation">&times;</button>
+    <nav class="side-nav">
+      <h3>Navigation</h3>
+      <button class="side-nav-btn" data-scroll="home">Home</button>
+      <button class="side-nav-btn" data-scroll="mods">Mods</button>
+      <hr>
+      <h4>Other Pages</h4>
+      <a class="side-nav-btn external" href="https://github.com/LightningEX/Minecraft-Mods" target="_blank">GitHub Repo</a>
+      <a class="side-nav-btn external" href="https://lightningex.github.io/Gamer-Hub" target="_blank">Gamer Hub</a>
+    </nav>
+  </aside>
+  <div id="side-panel-overlay"></div>
+  
+  <header id="home">
+    <h1>Minecraft Mod Hub</h1>
+    <nav>
+      <button class="nav-btn" data-scroll="home">Home</button>
+      <button class="nav-btn" data-scroll="mods">Mods</button>
+      <a class="nav-btn external" href="https://github.com/LightningEX/Minecraft-Mods" target="_blank">GitHub</a>
+    </nav>
+    <p>A collection of Minecraft Bedrock mods, intended for console players. Scroll to see and download mods! "OG" means LightningEX made the mod, all other mods are credited to their respective owners! I do not take credit for any mods without "OG"!</p>
+  </header>
+
+  <main>
+    <section class="mods-section" id="mods">
+  <h2>Mods</h2>
+  <div class="card">
+    <h3>Eternal Functions</h3>
+    <p><b>(OG)</b> Core functions for the Eternal Minecraft experience.</p>
+    <a href="mods/EternalFunctions.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Eternal Sounds</h3>
+    <p><b>(OG)</b> Custom sounds for Eternal Minecraft worlds.</p>
+    <a href="mods/EternalSounds.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Item Editor</h3>
+    <p>Edit and customize items in Minecraft Bedrock.</p>
+    <a href="mods/ItemEditor.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Lightning's Splash Text</h3>
+    <p><b>(OG)</b> Unique splash texts for your Minecraft title screen.</p>
+    <a href="mods/LightningsSplashText.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Lightning's Totem</h3>
+    <p><b>(OG)</b> Custom totem texture using my skin.</p>
+    <a href="mods/LightningsTotem.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Minecraft Essentials v2.18.0 [1.21.110x]</h3>
+    <p>Must-have pack for Minecraft Bedrock 1.21.110x!</p>
+    <a href="mods/Minecraft Essentials v2.18.0 [1.21.110x].mcaddon" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Radium's Armament</h3>
+    <p>A zip file containing Radium's custom weapons and gear.</p>
+    <a href="mods/Radium's Armament.zip" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Ultra Vanish</h3>
+    <p>Vanish from view in Minecraft Bedrock!</p>
+    <a href="mods/UltraVanish.mcaddon" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Copy Inventory</h3>
+    <p><b>(OG)</b> Tool to copy inventories into chests.</p>
+    <a href="mods/CopyInventory.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+  <div class="card">
+    <h3>Custom Commands Template</h3>
+    <p><b>(OG)</b> Start creating your own custom Minecraft commands!</p>
+    <a href="mods/CustomCommandsTemplate.mcpack" class="nav-btn" download target="_blank">Download</a>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LightningEX. Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
