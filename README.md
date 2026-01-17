@@ -6,6 +6,4 @@ Microsoft has, on multiple occasions, restricted its users' ability to mod games
 In the meantime, enjoy your new experiences with Minecraft! Check back here frequently, as I constantly update and adjust mods!
 
 # Change Log:
-- Updated Minecraft Essentials to v2.19.0
-- Added "W.I.P" to mods that aren't working/need more work.
-- Small fixes to code.
+- Updated Minecraft Essentials to v2.20.3
