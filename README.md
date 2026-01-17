@@ -7,3 +7,4 @@ In the meantime, enjoy your new experiences with Minecraft! Check back here freq
 
 # Change Log:
 - Updated Minecraft Essentials to v2.20.3
+- Created a webhook for administrative and moderation purposes
